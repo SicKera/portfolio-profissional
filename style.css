@@ -18,6 +18,7 @@ main {
 }
 
 .sections-even {
+    background-color: grey;
     padding: 300px;
 }
 
@@ -80,9 +81,15 @@ li, a {
 }
 
 .main-container {
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+                    /* Glass efeect */
+
+    /* background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
     backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px); */
+
+                    /* /Glass efeect */
+
+    background-color: rgb(15, 53, 0);
     border-radius: 20px;
     box-shadow: 5px 5px 5px rgb(43, 117, 0);
     min-width: 800px;
@@ -102,7 +109,6 @@ li, a {
 }
 .text-content {
     padding: 20px;
-    /*border: 2px solid blueviolet;*/
 }
 
 .titulo-main {
