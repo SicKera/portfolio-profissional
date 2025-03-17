@@ -6,13 +6,19 @@
     padding: 0;
     margin: 0;
 }
-body {
-    background-color: black;
-}
 
 main {
     width: 100%;
     height: auto;
+}
+
+.sections-odds {
+    padding: 300px;
+    background-color: black;
+}
+
+.sections-even {
+    padding: 300px;
 }
 
 h1 {
@@ -52,7 +58,7 @@ li, a {
     color: rgb(179, 255, 2);
 }
 
-#cabecalho {
+.cabecalho {
     position: sticky;top: 0;
     height: 100px;
     padding: 30px 5%;
@@ -62,20 +68,22 @@ li, a {
     align-items: center;
 }
 
-#logotipo {
+.logotipo {
     width: 75px;
     height: 75px;
     border-radius: 50%;
     cursor: pointer;
 }
 
-#titulo-cabecalho {
+.titulo-cabecalho {
     margin-left: 200px;
 }
 
-#main-container {
+.main-container {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     border-radius: 20px;
-    background-color: rgb(61, 61, 61);
     box-shadow: 5px 5px 5px rgb(43, 117, 0);
     min-width: 800px;
     max-width: 800px;
@@ -86,23 +94,23 @@ li, a {
     padding: 50px;
     border: 2px solid white;
 }
-#foto-perfil-card {
+.image-card {
     max-width: 100%;
     border-radius: 20px;
     width: 400px;
     height: auto;
 }
-#text-content {
+.text-content {
     padding: 20px;
     /*border: 2px solid blueviolet;*/
 }
 
-#titulo-main {
+.titulo-main {
     text-align: right;
     padding: 30px;
     line-height: 0.8em;
 }
-#text-paragraph {
+.text-paragraph {
     padding: 10px;
     line-height: 1.5em;
 }
